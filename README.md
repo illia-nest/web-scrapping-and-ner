@@ -7,7 +7,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.webp" alt="Logo" width="120" height="120">
+    <img src="images/logo.png" alt="Logo" width="120" height="120">
   </a>
 
   <h3 align="center">Web Scraping and Named Entity Recognition using Python</h3>
