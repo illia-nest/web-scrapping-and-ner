@@ -10,7 +10,8 @@
     <img src="images/logo.png" alt="Logo" width="120" height="120">
   </a>
 
-  <h3 align="center">Web Scraping and Named Entity Recognition using Python</h3>
+  <h3 align="center">AI Project #1: </h3>
+  <h2 align="center">Web Scraping and Named Entity Recognition using Python</h2>
 
   <p align="center">
     by Illia Nesterenko
