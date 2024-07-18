@@ -1,1 +1,1 @@
-This folter contains images for the main README.md of the project
+This folder contains images for the main README.md of the project
