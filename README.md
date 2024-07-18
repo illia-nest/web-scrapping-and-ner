@@ -101,7 +101,7 @@ The algorithm divided the nide into 13 groups. Below are examples from group 1 (
   <img src="images/figure-five.png" style="height:500px;">
 </div>
 
-The first group is the center that we discussed earlier. But the next group shows us a lot of repeated entities. It seems that spacy's NER model created a lot of near-duplicates that weren't apparent when looking at the table with extracted entities. Yet these near-dupes are specific enough to appear only in one group. This means that the groups are most likely organized around the entities from documents they were extracted and that the repeating entities were pulled from their groups closer to the center! This would explain why the density of the core of the graph is much lower than that of the groups. So, it seems that we built a "map" that shows us from which document the entity is most likely to be from!
+The first group is the center that we discussed earlier. But the next group shows us a lot of repeated entities. It seems that spacy's NER model created a lot of near-duplicates that weren't apparent when looking at the table with extracted entities. Yet these near-dupes are specific enough to appear only in one group. This means that the groups are most likely organized around the entities from documents they were extracted and that the repeating entities were pulled from their groups closer to the center. This would explain why the density of the core of the graph is much lower than that of the groups. So, it seems that we built a "map" that shows us from which document the entity is most likely to be from!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
