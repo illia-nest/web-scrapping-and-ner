@@ -11,7 +11,7 @@
   </a>
 
   <h3 align="center">AI Project #1: </h3>
-  <h2 align="center">Web Scraping and Named Entity Recognition using Python</h2>
+  <h3 align="center">Web Scraping and Named Entity Recognition using Python</h3>
 
   <p align="center">
     by Illia Nesterenko
@@ -25,9 +25,9 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#-about-the-project">About The Project</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#-built-with">Built With</a></li>
       </ul>
     </li>
     <li>
@@ -41,7 +41,7 @@
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="#contacts">Contacts</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
@@ -49,26 +49,25 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## 🔮 About The Project
 
-This project grew from an academic assignment I had to do as a grad student. In short, I have extracted the named entities (e.g. "United Nations", "Macron" etc) from 13 Wikipedia articles 
-on the topic of the Russo-Ukrainian war (<i>phase 1-2</i>). Then, I constructed a graph to visualize which entities were the most connected across the corpus (<i>phase 3</i>). Finally, I ran several clusterization algorithms to
-group the words that are locally closer to each other (<i>phase 4</i>). In the end, I compiled the whole code into a single file (<i>phase 5</i>).
+This project grew from an academic assignment I had to do as a grad student. The goal is to _**explore how artificial intelligence can be applied to extract meaningful entities from vast textual data and establish connections between them**_. In short, I have extracted the named entities (e.g. "United Nations", "Macron" etc) from 13 Wikipedia articles on the topic of the Russo-Ukrainian war (<i>phase_1.ipynb for scrapping phase_2.ipynb for NER</i>). Then, I constructed a graph to visualize which entities were the most connected across the corpus (<i>phase_3.ipynb</i>). Finally, I ran several clusterization algorithms to group the words that are locally closer to each other (<i>phase_4.ipynb</i>). In the end, I compiled the whole code into a single file (<i>phase_5.ipynb</i>). Please, look at a corresponding Jupiter Notebook for a detailed walkthrough of each phase. For a summary, check <a href="#my-findings">My Findings</a>.
 
+The repository also contains the names of the articles that were used in the projects (_articles.json_), the named entities extracted from the corpus (_data.csv_), the structure of a graph built from the entities (_graph.json_), and a Python script that scrapes the articles and performs NER in one go (_phase1-2.py_).
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
-### Built With
-* [![numpy]][numpy-url]
-* [![pandas]][pandas-url]
-* [![sklearn]][sklearn-url]
-* [![matplotlib]][matplotlib-url]
-* [![networkX]][networkX-url]
-* [![nltk]][nltk-url]
-* [![spacy]][spacy-url]
-* [![requests]][requests-url]
-* [![wikipediaapi]][wikipediaapi-url]
+### 🧰 Built With  
+[![numpy]][numpy-url]  
+[![pandas]][pandas-url]  
+[![sklearn]][sklearn-url]  
+[![matplotlib]][matplotlib-url]  
+[![networkX]][networkX-url]  
+[![nltk]][nltk-url]  
+[![spacy]][spacy-url]  
+[![requests]][requests-url]  
+[![wikipediaapi]][wikipediaapi-url]  
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -76,7 +75,7 @@ group the words that are locally closer to each other (<i>phase 4</i>). In the e
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+## My Findings
 
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
@@ -124,11 +123,11 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 
 <!-- CONTACT -->
-## Contact
+## Contacts
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Illia Nesterenko - [Telegram](https://t.me/illia_nest) - [LinkedIn](https://www.linkedin.com/in/illianest/) - illia.nest03@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/illia-nest/web-scrapping-and-ner](https://github.com/illia-nest/web-scrapping-and-ner)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
